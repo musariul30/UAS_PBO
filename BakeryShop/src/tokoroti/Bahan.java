@@ -1,6 +1,7 @@
 package tokoroti;
 
-public class Bahan {
+//Karena pake interface, jadi disini pake implements
+public class Bahan implements Dijual{
     private String nama;
     private double berat;
     private double harga;
