@@ -10,5 +10,5 @@ package tokoroti;
  */
 public class NewClass3 {
     //isoh niff
-    
+    // ko ora
 }
