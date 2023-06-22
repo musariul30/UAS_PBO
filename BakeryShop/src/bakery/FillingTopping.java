@@ -9,5 +9,11 @@ package bakery;
  * @author Arnella
  */
 public interface FillingTopping {
-    
+    public int keju();
+    public int coklat();
+    public int vanila();
+    public int selaiRedBean();
+    public int sosis();
+    public int smokedBeef();
+    public int bawangBombay();
 }
