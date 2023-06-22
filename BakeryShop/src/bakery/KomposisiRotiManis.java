@@ -6,8 +6,8 @@ package bakery;
 
 /**
  *
- * @author Musariul
+ * @author Arnella
  */
-public class NewClass2 {
+public class KomposisiRotiManis {
     
 }

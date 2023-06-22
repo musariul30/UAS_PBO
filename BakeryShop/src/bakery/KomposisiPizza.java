@@ -6,9 +6,8 @@ package bakery;
 
 /**
  *
- * @author LENOVO
+ * @author Arnella
  */
-public class NewClass3 {
-    //isoh niff
-    // ko ora
+public class KomposisiPizza {
+    
 }
