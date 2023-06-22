@@ -1,4 +1,4 @@
-package tokoroti;
+package bakery;
 
 //Karena pake interface, jadi disini pake implements
 public class Bahan implements Dijual{

@@ -1,4 +1,4 @@
-package tokoroti;
+package bakery;
 
 //dibuat interfacenya dari Bahan
 public interface Dijual {
