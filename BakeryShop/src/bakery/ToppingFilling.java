@@ -9,5 +9,12 @@ package bakery;
  * @author Arnella
  */
 public interface ToppingFilling {
+     public double keju();
+    public double coklat();
+    public double vanila();
+    public double redBean();
+    public double sosis();
+    public double beef();
+    public double bombay();
     
 }
