@@ -9,6 +9,7 @@ package bakery;
  * @author Arnella
  */
 public class KomposisiRotiTawar {
+    
     double rotiTawarTerigu = 1000;
     double rotiTawarGula = 125;
     double rotiTawarButter = 100;
@@ -22,5 +23,4 @@ public class KomposisiRotiTawar {
     
     // Hitung banyak pcs rotiTawar per adonan
     double rotiTawarPcs = this.rotiTawarTotal / this.rotiTawarBeratPcs;
-    
 }
