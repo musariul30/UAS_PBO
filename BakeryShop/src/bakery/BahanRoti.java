@@ -9,5 +9,12 @@ package bakery;
  * @author Arnella
  */
 public interface BahanRoti {
-    
+public double tepung();
+   public double gula();
+   public double butter();
+   public double ragi();
+   public double susuBubuk();
+   public double susuCair();
+   public double telur();
+   public double es();    
 }
