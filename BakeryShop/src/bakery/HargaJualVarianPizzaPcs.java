@@ -9,6 +9,7 @@ package bakery;
  * @author Musariul
  */
 public class HargaJualVarianPizzaPcs extends ModalPizzaPerPcs {
+    
+    // Hitung harga jual varian roti pizza per pcs
     double hargaJualPizzaV1 = ( (this.hargaPerGramKeju * 30) + (this.hargaPerGramSosis * 50) + (this.hargaPerGramBeef * 50) + (this.hargaPerGramBombay * 30) ) * 140/100 ;
-   
 }

@@ -10,6 +10,7 @@ package bakery;
  */
 public class HargaJualVarianRotiTawarPcs extends ModalRotiTawarPerPcs {
     
+    // Hitung harga jual varian roti tawar per pcs
     double hargaJualRotiTawarV1 = ( (this.hargaPerGramCoklat * 80) ) * 140/100 ;
     double hargaJualRotiTawarV2 = ( (this.hargaPerGramKeju * 80) ) * 140/100 ;
 }
