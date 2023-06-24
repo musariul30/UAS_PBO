@@ -15,6 +15,18 @@ public class Main {
      */
     public static void main(String[] args) {
         
+        System.out.println("HARGA JUAL ROTI PER PCS");
+        System.out.println("=========================");
+        HargaJualVarianRotiManisPcs m = new HargaJualVarianRotiManisPcs();
+        m.printHargaManisV1();
+        m.printHargaManisV2();
+        m.printHargaManisV3();
+        HargaJualVarianRotiTawarPcs t = new HargaJualVarianRotiTawarPcs();
+        t.printHargaTawarV1();
+        t.printHargaTawarV2();
+        HargaJualVarianPizzaPcs p = new HargaJualVarianPizzaPcs();
+        p.printHargaPizza();
         
+         
     }
 }
