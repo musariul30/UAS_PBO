@@ -13,4 +13,5 @@ public class KomposisiPizzaPerPcs extends KomposisiPizza{
     // Hitung bahan per pcs pizza
     double teriguPcsPizza = this.pizzaTerigu / this.pizzaPcs;
     
+    
 }
