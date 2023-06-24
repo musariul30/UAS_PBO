@@ -10,7 +10,7 @@ package bakery;
  */
 public class ModalRotiManisPerPcs extends KomposisiRotiManisPerPcs{
     
-    // Hitung modal per pcs Roti Manis
+    // Hitung modal per pcs roti manis
     double hargaTeriguPcsRotiManis = this.teriguPcsRotiManis * this.hargaPerGramTerigu;
     double hargaGulaPcsRotiManis = this.gulaPcsRotiManis * this.hargaPerGramGula;
     double hargaButterPcsRotiManis = this.butterPcsRotiManis * this.hargaPerGramButter;
@@ -20,6 +20,7 @@ public class ModalRotiManisPerPcs extends KomposisiRotiManisPerPcs{
     double hargaTelurPcsRotiManis = this.TelurPcsRotiManis * this.hargaPerGramTelur;
     double hargaEsPcsRotiManis = this.esPcsRotiManis * this.hargaPerGramEs;
     
-     double totalModalPcsRotiManis = this.hargaTeriguPcsRotiManis + this.hargaGulaPcsRotiManis + this.hargaButterPcsRotiManis + this.hargaRagiPcsRotiManis + this.hargaSusuBubukPcsRotiManis + this.hargaSusuCairPcsRotiManis + this.hargaTelurPcsRotiManis + this.hargaEsPcsRotiManis;
+    // Total modal per pcs roti manis
+    double totalModalPcsRotiManis = this.hargaTeriguPcsRotiManis + this.hargaGulaPcsRotiManis + this.hargaButterPcsRotiManis + this.hargaRagiPcsRotiManis + this.hargaSusuBubukPcsRotiManis + this.hargaSusuCairPcsRotiManis + this.hargaTelurPcsRotiManis + this.hargaEsPcsRotiManis;
 
 }

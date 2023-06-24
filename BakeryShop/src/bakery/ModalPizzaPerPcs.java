@@ -20,6 +20,7 @@ public class ModalPizzaPerPcs extends KomposisiPizzaPerPcs{
     double hargaTelurPcsPizza = this.TelurPcsPizza * this.hargaPerGramTelur;
     double hargaEsPcsPizza = this.esPcsPizza * this.hargaPerGramEs;
     
+    // Total modal per pcs pizza
     double totalModalPcsPizza = this.hargaTeriguPcsPizza + this.hargaGulaPcsPizza + this.hargaButterPcsPizza + this.hargaRagiPcsPizza + this.hargaSusuBubukPcsPizza + this.hargaSusuCairPcsPizza + this.hargaTelurPcsPizza + this.hargaEsPcsPizza;
 
 }

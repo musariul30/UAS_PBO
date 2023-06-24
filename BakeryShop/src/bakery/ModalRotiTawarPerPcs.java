@@ -20,6 +20,7 @@ public class ModalRotiTawarPerPcs extends KomposisiRotiTawarPerPcs{
     double hargaTelurPcsRotiTawar = this.TelurPcsRotiTawar * this.hargaPerGramTelur;
     double hargaEsPcsRotiTawar = this.esPcsRotiTawar * this.hargaPerGramEs;
     
+    // Total modal per pcs roti tawar
     double totalModalPcsRotiTawar = this.hargaTeriguPcsRotiTawar + this.hargaGulaPcsRotiTawar + this.hargaButterPcsRotiTawar + this.hargaRagiPcsRotiTawar + this.hargaSusuBubukPcsRotiTawar + this.hargaSusuCairPcsRotiTawar + this.hargaTelurPcsRotiTawar + this.hargaEsPcsRotiTawar;
 
 }
