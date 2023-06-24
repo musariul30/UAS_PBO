@@ -8,7 +8,7 @@ package bakery;
  *
  * @author Arnella
  */
-public class KomposisiPizza {
+public class KomposisiPizza extends HargaPerGram{
     
     // Berat adonan bahan pizza
     double pizzaTerigu = 1000;

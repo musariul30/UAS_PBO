@@ -8,6 +8,9 @@ package bakery;
  *
  * @author Arnella
  */
-public class ModalPizzaPerPcs {
+public class ModalPizzaPerPcs extends KomposisiPizzaPerPcs{
     
+    // Hitung modal per pcs pizza
+    double hargaTeriguPcsPizza = this.teriguPcsPizza * this.hargaPerGramTerigu;
+
 }

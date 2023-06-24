@@ -8,6 +8,6 @@ package bakery;
  *
  * @author Arnella
  */
-public class ModalRotiTawarPerPcs {
+public class ModalRotiTawarPerPcs extends KomposisiRotiTawarPerPcs{
     
 }

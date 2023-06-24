@@ -8,6 +8,9 @@ package bakery;
  *
  * @author Arnella
  */
-public class ModalRotiManinsPerPcs {
+public class ModalRotiManisPerPcs extends KomposisiRotiManisPerPcs{
+    
+    // Hitung modal per pcs roti manis
+    double hargaTeriguPcsRotiManis = this.teriguPcsRotiManis * this.hargaPerGramTerigu;
     
 }

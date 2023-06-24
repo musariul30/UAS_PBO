@@ -8,7 +8,7 @@ package bakery;
  *
  * @author Arnella
  */
-public class KomposisiRotiTawar {
+public class KomposisiRotiTawar extends HargaPerGram{
     
     double rotiTawarTerigu = 1000;
     double rotiTawarGula = 125;
