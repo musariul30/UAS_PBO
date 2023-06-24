@@ -9,5 +9,8 @@ package bakery;
  * @author Arnella
  */
 public interface HitungKomposisi {
-    
+    public double beratAdonan();
+    public double beratPerPcs();
+    public double jumlahPcsPerAdonan();
+
 }
