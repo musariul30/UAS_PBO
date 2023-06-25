@@ -19,14 +19,14 @@ public class Main {
         System.out.println("===================================");
         System.out.println("     HARGA JUAL ROTI PER PCS");
         System.out.println("===================================");
-        HargaJualVarianRotiManisPcs m = new HargaJualVarianRotiManisPcs();
+        RotiManis m = new RotiManis();
         m.printHargaManisV1();
         m.printHargaManisV2();
         m.printHargaManisV3(); 
-        HargaJualVarianRotiTawarPcs t = new HargaJualVarianRotiTawarPcs();
+        RotiTawar t = new RotiTawar();
         t.printHargaTawarV1();
         t.printHargaTawarV2();
-        HargaJualVarianPizzaPcs p = new HargaJualVarianPizzaPcs();
+        Pizza p = new Pizza();
         p.printHargaPizza();
 
         

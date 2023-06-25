@@ -8,7 +8,7 @@ package bakery;
  *
  * @author Arnella
  */
-public class BahanPizzaV1 extends KomposisiPizzaPerPcs implements InterfaceKebutuhanBahan{
+public class BahanPizzaV1 extends Pizza implements InterfaceKebutuhanBahan{
 
     public int orderan;
     

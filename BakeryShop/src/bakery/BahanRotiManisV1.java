@@ -8,7 +8,7 @@ package bakery;
  *
  * @author Arnella
  */
-public class BahanRotiManisV1 extends KomposisiRotiManisPerPcs implements InterfaceKebutuhanBahan{
+public class BahanRotiManisV1 extends RotiManis implements InterfaceKebutuhanBahan{
 
     public int orderan;
     

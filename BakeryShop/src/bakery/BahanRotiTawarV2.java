@@ -8,7 +8,7 @@ package bakery;
  *
  * @author Arnella
  */
-public class BahanRotiTawarV2 extends KomposisiRotiTawarPerPcs implements InterfaceKebutuhanBahan{
+public class BahanRotiTawarV2 extends RotiTawar implements InterfaceKebutuhanBahan{
 
     public int orderan;
     
