@@ -10,41 +10,41 @@ package bakery;
  */
 public class HargaPerGram {
     
-    // Harga bahan roti
-    double hargaTerigu = 40000;
+    //Berat Bahan dan Filling Topping (dalam gram)
     double beratTerigu = 1000;
-    double hargaGula = 25000;
     double beratGula = 1000;
-    double hargaButter = 23000;
     double beratButter = 500;
-    double hargaRagi = 5000;
     double beratRagi = 11;
-    double hargaSusuBubuk = 39000;
     double beratSusuBubuk = 1000;
-    double hargaSusuCair = 24000;
     double beratSusuCair = 1000;
-    double hargaTelur = 23000;
     double beratTelur = 1000;
-    double hargaEs = 2000;
     double beratEs = 1000;
-    
-    // Harga filling topping
-    double hargaKeju = 31000;
     double beratKeju = 250;
-    double hargaCoklat = 29000;
     double beratCoklat = 500;
-    double hargaVanila = 30000;
     double beratVanila = 500;
-    double hargaRedBean = 25000;
     double beratRedBean = 500;
-    double hargaSosis = 80000;
     double beratSosis = 1000;
-    double hargaBeef = 90000;
     double beratBeef = 1000;
-    double hargaBombay = 40000;
     double beratBombay = 500;
+
+    // Harga Bahan dan Filling Topping
+    double hargaTerigu = 40000;
+    double hargaGula = 25000;
+    double hargaButter = 23000;
+    double hargaRagi = 5000;
+    double hargaSusuBubuk = 39000;
+    double hargaSusuCair = 24000;
+    double hargaTelur = 23000;
+    double hargaEs = 2000;
+    double hargaKeju = 31000;
+    double hargaCoklat = 29000;
+    double hargaVanila = 30000;
+    double hargaRedBean = 25000;
+    double hargaSosis = 80000;
+    double hargaBeef = 90000;
+    double hargaBombay = 40000;
     
-    //Hitung harga per gram
+    //Harga per gram
     double hargaPerGramTerigu = this.hargaTerigu / this.beratTerigu;
     double hargaPerGramGula = this.hargaGula / this.beratGula;
     double hargaPerGramButter = this.hargaButter / this.beratButter;
