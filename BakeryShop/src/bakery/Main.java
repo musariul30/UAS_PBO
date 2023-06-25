@@ -19,7 +19,7 @@ public class Main {
         System.out.println("===================================");
         System.out.println("     HARGA JUAL ROTI PER PCS");
         System.out.println("===================================");
-        /*HargaJualVarianRotiManisPcs m = new HargaJualVarianRotiManisPcs();
+        HargaJualVarianRotiManisPcs m = new HargaJualVarianRotiManisPcs();
         m.printHargaManisV1();
         m.printHargaManisV2();
         m.printHargaManisV3(); 
@@ -27,13 +27,9 @@ public class Main {
         t.printHargaTawarV1();
         t.printHargaTawarV2();
         HargaJualVarianPizzaPcs p = new HargaJualVarianPizzaPcs();
-        p.printHargaPizza();*/
+        p.printHargaPizza();
 
-        double profit = (40 / 100) * 
-
-        Pizza pizza = new Pizza();
-        System.out.println("Total modal 1 adonan Pizza: Rp " + pizza.pizzaTotalHarga);
-        System.out.println("Pizza yang di dapat dengan sekali adonan: " + pizza.satuAdonanPizza + "pcs");
+        
 
          
     }
