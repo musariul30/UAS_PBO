@@ -16,7 +16,7 @@ public class HargaJualVarianPizzaPcs extends ModalPizzaPerPcs {
     
     // Print harga
     public void printHargaPizza(){
-        System.out.println("Harga Pizza Varian 1      Rp: " + this.hargaJualPizzaV1Bulat);
+        System.out.println("Harga Pizza Varian 1      : Rp " + this.hargaJualPizzaV1Bulat);
     }
     
 }

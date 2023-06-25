@@ -18,9 +18,9 @@ public class HargaJualVarianRotiTawarPcs extends ModalRotiTawarPerPcs {
     
     // Print harga
     public void printHargaTawarV1(){
-        System.out.println("Harga Roti Tawar Varian 1 Rp: " + this.hargaJualRotiTawarV1Bulat);
+        System.out.println("Harga Roti Tawar Varian 1 : Rp " + this.hargaJualRotiTawarV1Bulat);
     }
      public void printHargaTawarV2(){
-        System.out.println("Harga Roti Tawar Varian 2 Rp: " + this.hargaJualRotiTawarV2Bulat);
+        System.out.println("Harga Roti Tawar Varian 2 : Rp " + this.hargaJualRotiTawarV2Bulat);
     }
 }

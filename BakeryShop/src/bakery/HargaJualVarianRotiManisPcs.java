@@ -21,12 +21,12 @@ public class HargaJualVarianRotiManisPcs extends ModalRotiManisPerPcs{
     
     // Print harga
     public void printHargaManisV1(){
-        System.out.println("Harga Roti Manis Varian 1 Rp: " + this.hargaJualRotiManisV1Bulat);
+        System.out.println("Harga Roti Manis Varian 1 : Rp " + this.hargaJualRotiManisV1Bulat);
     }
      public void printHargaManisV2(){
-        System.out.println("Harga Roti Manis Varian 2 Rp: " + this.hargaJualRotiManisV2Bulat);
+        System.out.println("Harga Roti Manis Varian 2 : Rp " + this.hargaJualRotiManisV2Bulat);
     }
       public void printHargaManisV3(){
-        System.out.println("Harga Roti Manis Varian 3 Rp: " + this.hargaJualRotiManisV3Bulat);
+        System.out.println("Harga Roti Manis Varian 3 : Rp " + this.hargaJualRotiManisV3Bulat);
     }
 }
