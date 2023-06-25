@@ -20,37 +20,44 @@ public class BahanRotiTawarV2 extends RotiTawar implements InterfaceKebutuhanBah
 
     @Override
     public double hitungGula() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.gulaPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungButter() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.butterPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungRagi() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.ragiPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungSusuBubuk() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuBubukPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungSusuCair() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuCairPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungTelur() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.TelurPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungEs() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.esPcsRotiTawar * orderan;
+        return hitung;
     }
     
 }

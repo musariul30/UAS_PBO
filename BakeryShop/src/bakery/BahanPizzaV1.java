@@ -20,37 +20,44 @@ public class BahanPizzaV1 extends Pizza implements InterfaceKebutuhanBahan{
 
     @Override
     public double hitungGula() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.gulaPcsPizza * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungButter() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.butterPcsPizza * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungRagi() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.ragiPcsPizza * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungSusuBubuk() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuBubukPcsPizza * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungSusuCair() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuCairPcsPizza * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungTelur() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.TelurPcsPizza * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungEs() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.esPcsPizza * orderan;
+        return hitung;
     }
     
 }
