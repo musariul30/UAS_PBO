@@ -12,7 +12,7 @@ public class BahanRotiManisV2 extends RotiManis implements InterfaceKebutuhanBah
 
     public int orderan;
     
-    @Override
+   @Override
     public double hitungTerigu() {
         double hitung = this.teriguPcsRotiManis * orderan;
         return hitung;
@@ -20,37 +20,46 @@ public class BahanRotiManisV2 extends RotiManis implements InterfaceKebutuhanBah
 
     @Override
     public double hitungGula() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.gulaPcsRotiManis * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungButter() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.butterPcsRotiManis * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungRagi() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.ragiPcsRotiManis * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungSusuBubuk() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuBubukPcsRotiManis * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungSusuCair() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuCairPcsRotiManis * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungTelur() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.TelurPcsRotiManis * orderan;
+        return hitung;
     }
 
     @Override
     public double hitungEs() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.esPcsRotiManis * orderan;
+        return hitung;
     }
-    
+
 }
+    
+
