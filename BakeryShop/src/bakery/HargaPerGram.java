@@ -49,7 +49,7 @@ public class HargaPerGram {
     double hargaPerGramGula = this.hargaGula / this.beratGula;
     double hargaPerGramButter = this.hargaButter / this.beratButter;
     double hargaPerGramRagi = this.hargaRagi / this.beratRagi;
-    double hargaPerGramSusuBubuk = this.hargaSusuBubuk / this.beratSusuCair;
+    double hargaPerGramSusuBubuk = this.hargaSusuBubuk / this.beratSusuBubuk;
     double hargaPerGramSusuCair = this.hargaSusuCair / this.beratSusuCair;
     double hargaPerGramTelur = this.hargaTelur / this.beratTelur;
     double hargaPerGramEs = this.hargaEs / this.beratEs;
