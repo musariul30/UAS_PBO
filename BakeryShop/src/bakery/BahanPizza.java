@@ -64,7 +64,7 @@ public class BahanPizza extends Pizza implements InterfaceHitungBahan{
     @Override
     public double bahanKeju() {
         double hitung = 30 * orderan;
-        return  hitung;
+        return hitung;
     }
 
     @Override
@@ -85,13 +85,13 @@ public class BahanPizza extends Pizza implements InterfaceHitungBahan{
     @Override
     public double bahanSosis() {
         double hitung = 50 * orderan;
-        return  hitung;
+        return hitung;
     }
 
     @Override
     public double bahanBeef() {
         double hitung = 50 * orderan;
-        return  hitung;
+        return hitung;
     }
 
     @Override
