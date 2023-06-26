@@ -29,7 +29,17 @@ public class Main {
         Pizza p = new Pizza();
         p.printHargaPizza();
 
-        
+        //Berat dan Kemasan RotiManisVar1 berdasarkan orderan
+        BahanRotiManisV1 rmV1 = new BahanRotiManisV1();
+        rmV1.orderan = 50;
+        double kemasanRM1 = Math.ceil(rmV1.bahanTerigu()/1000);
+        System.out.println("Tepung: " + Math.round(rmV1.bahanTerigu()) + " " + kemasanRM1 );
+
+        //Berat dan Kemasan RotiManisVar2 berdasarkan orderan
+        BahanRotiManisV2 rmV2 = new BahanRotiManisV2();
+        rmV2.orderan = 100;
+        double kemasanRM2 = Math.ceil(rmV2.bahanTerigu()/1000);
+        System.out.println("Tepung: " + Math.round(rmV2.bahanTerigu()) + " " + kemasanRM2 );
 
          
     }
