@@ -10,7 +10,7 @@ package bakery;
  */
 public class HargaPerGram {
     
-    //Berat Bahan dan Filling Topping (dalam gram)
+    //Berat bahan dan filling topping (dalam gram)
     double beratTerigu = 1000;
     double beratGula = 1000;
     double beratButter = 500;
@@ -27,7 +27,7 @@ public class HargaPerGram {
     double beratBeef = 1000;
     double beratBombay = 500;
 
-    // Harga Bahan dan Filling Topping
+    // Harga bahan dan filling topping per kemasan
     double hargaTerigu = 40000;
     double hargaGula = 25000;
     double hargaButter = 23000;
@@ -44,7 +44,7 @@ public class HargaPerGram {
     double hargaBeef = 90000;
     double hargaBombay = 40000;
     
-    //Harga per gram
+    //Harga bahan-bahan per gram
     double hargaPerGramTerigu = this.hargaTerigu / this.beratTerigu;
     double hargaPerGramGula = this.hargaGula / this.beratGula;
     double hargaPerGramButter = this.hargaButter / this.beratButter;

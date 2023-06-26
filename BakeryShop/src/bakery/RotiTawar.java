@@ -13,7 +13,7 @@ public class RotiTawar extends HargaPerGram{
     double rotiTawarTotal = 2065;
     double rotiTawarBeratPcs = 400;
     
-    // Hitung banyak pcs rotiTawar per adonan
+    // Hitung banyak pcs roti tawar per adonan
     double rotiTawarPcs = this.rotiTawarTotal / this.rotiTawarBeratPcs;
 
     // Hitung bahan per pcs rotiTawar

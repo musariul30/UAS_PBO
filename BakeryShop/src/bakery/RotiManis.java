@@ -13,10 +13,10 @@ public class RotiManis extends HargaPerGram{
     double rotiManisTotal = 2350;
     double rotiManisBeratPcs = 50;
     
-    // Hitung banyak pcs rotiManis per adonan
+    // Hitung banyak pcs roti manis per adonan
     double rotiManisPcs = this.rotiManisTotal / this.rotiManisBeratPcs;
 
-     // Hitung bahan per pcs rotiManis
+     // Hitung bahan per pcs roti manis
     double teriguPcsRotiManis = this.rotiManisTerigu / this.rotiManisPcs;
     double gulaPcsRotiManis = this.rotiManisGula / this.rotiManisPcs;
     double butterPcsRotiManis = this.rotiManisButter / this.rotiManisPcs;
