@@ -29,9 +29,9 @@ public class Main {
         Pizza p = new Pizza();
         p.printHargaPizza();
 
-        System.out.println("===================================");
-        System.out.println("     BAHAN YANG DIBUTUHKAN");
-        System.out.println("===================================");   
+        System.out.println("======================================================================");
+        System.out.println("                       BAHAN-BAHAN YANG DIBUTUHKAN");
+        System.out.println("======================================================================");   
     
         BahanRotiManisV1 rmV1 = new BahanRotiManisV1();
         BahanRotiManisV2 rmV2 = new BahanRotiManisV2();
