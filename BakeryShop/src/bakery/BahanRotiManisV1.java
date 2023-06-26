@@ -55,13 +55,13 @@ public class BahanRotiManisV1 extends RotiManis implements InterfaceHitungBahan{
 
     @Override
     public double bahanKeju() {
-        double hitung = 10 * orderan;
+        double hitung = 5 * orderan;
         return  hitung;
     }
 
     @Override
     public double bahanCoklat() {
-        double hitung = 5 * orderan;
+        double hitung = 10 * orderan;
         return  hitung;
     }
 
