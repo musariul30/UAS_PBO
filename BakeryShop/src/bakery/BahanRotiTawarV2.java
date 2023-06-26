@@ -10,79 +10,90 @@ package bakery;
  */
 public class BahanRotiTawarV2 extends RotiTawar implements InterfaceHitungBahan{
 
+    public int orderan;
     @Override
     public double bahanTerigu() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.teriguPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanGula() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.gulaPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanButter() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.butterPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanRagi() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.ragiPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanSusuBubuk() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuBubukPcsRotiTawar * orderan; 
+        return hitung;        
     }
 
     @Override
     public double bahanSusuCair() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.susuCairPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanTelur() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.TelurPcsRotiTawar * orderan;
+        return hitung;
+                
     }
 
     @Override
     public double bahanEs() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = this.esPcsRotiTawar * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanKeju() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        double hitung = 80 * orderan;
+        return hitung;
     }
 
     @Override
     public double bahanCoklat() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return  0;
     }
 
     @Override
     public double bahanVanila() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return 0;
     }
 
     @Override
     public double bahanRedBean() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return 0;
     }
 
     @Override
     public double bahanSosis() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return 0;
     }
 
     @Override
     public double bahanBeef() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return 0;
     }
 
     @Override
     public double bahanBombay() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return 0;
     }
     
 }

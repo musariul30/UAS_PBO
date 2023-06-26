@@ -29,6 +29,10 @@ public class Main {
         Pizza p = new Pizza();
         p.printHargaPizza();
 
+        System.out.println("===================================");
+        System.out.println("     BAHAN YANG DIBUTUHKAN");
+        System.out.println("===================================");   
+        
         //Berat dan Kemasan RotiManisVar1 berdasarkan orderan
         BahanRotiManisV1 rmV1 = new BahanRotiManisV1();
         rmV1.orderan = 50;
@@ -40,6 +44,14 @@ public class Main {
         rmV2.orderan = 100;
         double kemasanRM2 = Math.ceil(rmV2.bahanTerigu()/1000);
         System.out.println("Tepung: " + Math.round(rmV2.bahanTerigu()) + " " + kemasanRM2 );
+        
+
+        BahanRotiTawarV1 tv1 = new BahanRotiTawarV1();
+        tv1.orderan = 20;
+        double hitungTerigu = Math.ceil (tv1.bahanTerigu());
+        double hitungKemasan = Math.ceil(hitungTerigu/1000);
+        System.out.println("Tepung terigu yang dibutuhkan " + hitungTerigu + " gram" + " membutuhkan: " + hitungKemasan + " kemasan ");
+
 
          
     }
