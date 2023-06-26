@@ -28,8 +28,14 @@ public class Main {
         t.printHargaTawarV2();
         Pizza p = new Pizza();
         p.printHargaPizza();
-        
-        
+        System.out.println("===================================");
+        System.out.println("     BAHAN YANG DIBUTUHKAN");
+        System.out.println("===================================");       
+        BahanRotiTawarV1 tv1 = new BahanRotiTawarV1();
+        tv1.orderan = 20;
+        double hitungTerigu = Math.ceil (tv1.bahanTerigu());
+        double hitungKemasan = Math.ceil(hitungTerigu/1000);
+        System.out.println("Tepung terigu yang dibutuhkan " + hitungTerigu + " gram" + " membutuhkan: " + hitungKemasan + " kemasan ");
 
          
     }
