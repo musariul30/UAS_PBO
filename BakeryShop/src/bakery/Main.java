@@ -16,9 +16,9 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        System.out.println("===================================");
-        System.out.println("     HARGA JUAL ROTI PER PCS");
-        System.out.println("===================================");
+        System.out.println("======================================================================");
+        System.out.println("                       HARGA JUAL ROTI PER PCS");
+        System.out.println("======================================================================");
         RotiManis m = new RotiManis();
         m.printHargaManisV1();
         m.printHargaManisV2();
@@ -29,7 +29,7 @@ public class Main {
         Pizza p = new Pizza();
         p.printHargaPizza();
     
-        //Membuat Objek baru
+        // Membuat Objek baru
         BahanRotiManisV1 rmV1 = new BahanRotiManisV1();
         BahanRotiManisV2 rmV2 = new BahanRotiManisV2();
         BahanRotiManisV1 rmV3 = new BahanRotiManisV1();
@@ -37,7 +37,7 @@ public class Main {
         BahanRotiTawarV1 rtv2 = new BahanRotiTawarV1();
         BahanPizza pv1 = new BahanPizza();
         
-        //Daftar orderan per varian
+        // Daftar Orderan Per Varian
         rmV1.orderan = 50;
         rmV2.orderan = 100;
         rmV3.orderan = 70;
@@ -45,7 +45,7 @@ public class Main {
         rtv2.orderan = 15;
         pv1.orderan = 10;
         
-        //Total Berat Bahan yang dibutuhkan
+        // Total Berat Bahan yang dibutuhkan
         double hitungTerigu = Math.ceil(rmV1.bahanTerigu() + rmV2.bahanTerigu()+ rmV3.bahanTerigu() + rtv1.bahanTerigu()+ rtv2.bahanTerigu()+ pv1.bahanTerigu());
         double hitungGula = Math.ceil(rmV1.bahanGula() + rmV2.bahanGula()+ rmV3.bahanGula() + rtv1.bahanGula()+ rtv2.bahanGula()+ pv1.bahanGula());
         double hitungButter = Math.ceil(rmV1.bahanButter() + rmV2.bahanButter()+ rmV3.bahanButter() + rtv1.bahanButter()+ rtv2.bahanButter()+ pv1.bahanButter());
@@ -84,11 +84,11 @@ public class Main {
         double hitungKemasanBombay = Math.ceil(hitungBombay/1000);
 
         System.out.println(" ");
-        System.out.println("===================================");
-        System.out.println("     BAHAN YANG DIBUTUHKAN");
-        System.out.println("===================================");   
+        System.out.println("======================================================================");
+        System.out.println("                         BAHAN YANG DIBUTUHKAN");
+        System.out.println("======================================================================");   
         
-        //printout Bahan
+        // Printout Bahan
         System.out.println("Tepung terigu yang dibutuhkan " + hitungTerigu + " gram" + " membutuhkan: " + hitungKemasanTerigu + " kemasan ");
         System.out.println("Gula yang dibutuhkan " + hitungGula + " gram" + " membutuhkan: " + hitungKemasanGula + " kemasan ");
         System.out.println("Butter yang dibutuhkan " + hitungButter + " gram" + " membutuhkan: " + hitungKemasanButter + " kemasan ");
@@ -99,12 +99,12 @@ public class Main {
         System.out.println("Es batu yang dibutuhkan " + hitungEs + " gram" + " membutuhkan: " + hitungKemasanEs + " kemasan ");
 
         System.out.println(" ");
-        System.out.println("=============================================");
-        System.out.println("     TOPPING DAN FILLING YANG DIBUTUHKAN");
-        System.out.println("=============================================");   
+        System.out.println("======================================================================");
+        System.out.println("                     TOPPING DAN FILLING YANG DIBUTUHKAN");
+        System.out.println("======================================================================");   
 
-        //printout Topping Filling
-        System.out.println("Keju terigu yang dibutuhkan " + hitungKeju + " gram" + " membutuhkan: " + hitungKemasanKeju + " kemasan ");
+        // Printout Topping Filling
+        System.out.println("Keju yang dibutuhkan " + hitungKeju + " gram" + " membutuhkan: " + hitungKemasanKeju + " kemasan ");
         System.out.println("Coklat yang dibutuhkan " + hitungCoklat + " gram" + " membutuhkan: " + hitungKemasanCoklat + " kemasan ");
         System.out.println("Vanila yang dibutuhkan " + hitungVanila + " gram" + " membutuhkan: " + hitungKemasanVanila + " kemasan ");
         System.out.println("RedBean yang dibutuhkan " + hitungRedBean + " gram" + " membutuhkan: " + hitungKemasanRedBean + " kemasan ");
