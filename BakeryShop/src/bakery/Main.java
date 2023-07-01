@@ -58,8 +58,8 @@ public class Main {
         //Total Kemasan Bahan yang dibutuhkan
         double hitungKemasanTerigu = Math.ceil(hitungTerigu/1000);
         double hitungKemasanGula = Math.ceil(hitungGula/1000);
-        double hitungKemasanButter = Math.ceil(hitungButter/1000);
-        double hitungKemasanRagi = Math.ceil(hitungRagi/1000);
+        double hitungKemasanButter = Math.ceil(hitungButter/500);
+        double hitungKemasanRagi = Math.ceil(hitungRagi/11);
         double hitungKemasanSusuBubuk = Math.ceil(hitungSusuBubuk/1000);
         double hitungKemasanSusuCair = Math.ceil(hitungSusuCair/1000);
         double hitungKemasanTelur = Math.ceil(hitungTelur/1000);
@@ -75,13 +75,13 @@ public class Main {
         double hitungBombay = Math.ceil(rmV1.bahanBombay() + rmV2.bahanBombay() + rmV3.bahanBombay() + rtv1.bahanBombay() + rtv2.bahanBombay() + pv1.bahanBombay());
 
         //Total Kemasan Topping Filling yang dibutuhkan
-        double hitungKemasanKeju = Math.ceil(hitungKeju/1000);
-        double hitungKemasanCoklat = Math.ceil(hitungCoklat/1000);
-        double hitungKemasanVanila = Math.ceil(hitungVanila/1000);
-        double hitungKemasanRedBean = Math.ceil(hitungRedBean/1000);
+        double hitungKemasanKeju = Math.ceil(hitungKeju/250);
+        double hitungKemasanCoklat = Math.ceil(hitungCoklat/500);
+        double hitungKemasanVanila = Math.ceil(hitungVanila/500);
+        double hitungKemasanRedBean = Math.ceil(hitungRedBean/500);
         double hitungKemasanSosis = Math.ceil(hitungSosis/1000);
         double hitungKemasanBeef = Math.ceil(hitungBeef/1000);
-        double hitungKemasanBombay = Math.ceil(hitungBombay/1000);
+        double hitungKemasanBombay = Math.ceil(hitungBombay/500);
 
         System.out.println(" ");
         System.out.println("======================================================================");
