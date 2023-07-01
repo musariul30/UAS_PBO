@@ -32,9 +32,9 @@ public class Main {
         // Membuat Objek baru
         BahanRotiManisV1 rmV1 = new BahanRotiManisV1();
         BahanRotiManisV2 rmV2 = new BahanRotiManisV2();
-        BahanRotiManisV1 rmV3 = new BahanRotiManisV1();
+        BahanRotiManisV3 rmV3 = new BahanRotiManisV3();
         BahanRotiTawarV1 rtv1 = new BahanRotiTawarV1();
-        BahanRotiTawarV1 rtv2 = new BahanRotiTawarV1();
+        BahanRotiTawarV2 rtv2 = new BahanRotiTawarV2();
         BahanPizza pv1 = new BahanPizza();
         
         // Daftar Orderan Per Varian
